@@ -5,6 +5,7 @@ Overview:
 Experimenting with Lotka-Volterra Model, it attempts to model the population dynamics of two species: a predator species and a prey species. 
 
 The model assumes that:
+
 •The population of each species is continuous (e.g. having 0.4 of an animal is possible) and time is continuous; which are necessary assumptions in any model based on differential equations.
 
 •In the absence of predators, the prey species experiences unbounded growth.
