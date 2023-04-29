@@ -16,6 +16,17 @@ The model assumes that:
 
 •The growth rate of the predator species is proportional to the population size of the prey species.
 
+System of Equations used for the model:
+
+<img width="397" alt="Screen Shot 2023-04-28 at 7 11 19 PM" src="https://user-images.githubusercontent.com/121915438/235278936-8dfd74ec-4dd5-49eb-85cb-0146c0c74e6b.png">
+
+
+Here 𝑎 is the decay rate of the predators, 𝑑 is the growth rate of the prey, 𝑏 is the proportionality of the predators’ growth rate, and 𝑐 is the proportionality of the preys’ decay rate. Since the differential equations do not explicitly depend on time, the phase portrait of the system can be made through a stream plot of:
+
+<img width="254" alt="Screen Shot 2023-04-28 at 7 12 34 PM" src="https://user-images.githubusercontent.com/121915438/235278974-449cf585-aaac-4a0d-904c-0a7df149b9ea.png">
+
+
+
 For this project I wanted to explore the behavior of this simulation, addressing the following:
 
 
@@ -71,3 +82,6 @@ The main three simulation parameters ("breed_time", "energy_gain", and "breed_en
 
 -A bounded grid, where individuals at the edges are lost. This can lead to more chaotic and unpredictable dynamics, especially when the populations are small.
 The difference in results between these setups depends on the values of the parameters and the initial conditions. In general, the toroidal grid may be more suitable for studying spatially structured dynamics, while the bounded grid may be more suitable for studying extinction and recovery processes.
+
+
+<img width="455" alt="Screen Shot 2023-04-28 at 7 13 42 PM" src="https://user-images.githubusercontent.com/121915438/235279004-3b627aee-9912-47d2-b870-c8b96c898c65.png">
